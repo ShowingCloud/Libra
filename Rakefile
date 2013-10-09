@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Spree::Application.load_tasks
+Libra::Application.load_tasks
