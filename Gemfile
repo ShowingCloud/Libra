@@ -51,3 +51,5 @@ gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '2-1-s
 gem 'spree_i18n', :github => 'spree/spree_i18n', :branch => '2-1-stable'
 
 gem 'globalize'
+
+gem 'thin'
