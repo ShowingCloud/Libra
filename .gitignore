@@ -7,6 +7,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /log/production.log.*
+/log/std*
 /tmp
 
 # Rails
@@ -104,9 +105,6 @@ db/schema.rb
 # rvm files
 .ruby-gemset
 .ruby-version
-
-# bundle cache
-Gemfile.lock
 
 # Don't upload third-party images
 vendor/assets/images
