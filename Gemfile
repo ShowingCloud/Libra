@@ -1,11 +1,13 @@
 source 'https://rubygems.org'
 
+gem 'activesupport', :path => File.join(File.dirname(__FILE__), '/vendor/gems/activesupport-4.0.13')
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '~> 4.0.0'
 
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -45,11 +47,13 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'spree', '2.1.1'
+gem 'spree', '~> 2.1.1'
 gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '2-1-stable'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '2-1-stable'
 gem 'spree_i18n', :github => 'spree/spree_i18n', :branch => '2-1-stable'
 
 gem 'globalize'
 
-gem 'thin'
+gem 'puma'
+
+gem 'newrelic_rpm'

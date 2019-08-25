@@ -98,6 +98,7 @@ config/database.yml
 config/initializers/secret_token.rb
 config/initializers/devise.rb
 db/data.yml
+config/newrelic.yml
 
 # needed for migration
 db/schema.rb
