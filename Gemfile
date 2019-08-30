@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'activesupport', :path => File.join(File.dirname(__FILE__), '/vendor/gems/activesupport-4.0.13')
+gem 'activesupport', :github => 'ShowingCloud/rails', :tag => 'v4.0.13'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.0.0'
